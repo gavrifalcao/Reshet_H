@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "reshet_h:build:production"
+              "buildTarget": "reshet_h:build:production"
             },
             "development": {
-              "browserTarget": "reshet_h:build:development"
+              "buildTarget": "reshet_h:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "reshet_h:build"
+            "buildTarget": "reshet_h:build"
           }
         },
         "test": {
